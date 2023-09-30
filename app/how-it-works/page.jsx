@@ -17,7 +17,7 @@ const HowItWorks = () => {
                  ensuring a seamless experience for our customers. Here's how it all works:
                 </p>
               </div>
-                <div className="grid grid-cols-2 mt-4 md:mx-12 mx-4">
+                <div className="grid grid-cols-2 mt-4 md:mx-12 mx-2">
                   <div className="flex flex-col items-start justify-center mb-4">
                     <div className="bg-white rounded-full w-[80px] h-[80px] flex justify-center items-center">
                       <IoNavigateCircleOutline className="w-12 h-12 text-primary-green" />

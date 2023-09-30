@@ -18,7 +18,7 @@ const RootLayout = ({children}) => {
         {/* Add more meta tags if needed */}
       </head>
 
-        <body>
+        <body className='container bg-[#F7F7F7]'>
             <Nav />       
                 {children}
             <Newsletter />

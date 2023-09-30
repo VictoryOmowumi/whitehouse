@@ -58,8 +58,8 @@ const WhyUs = () => {
                         </div>
                         
                         {/*  a circle behind the cards using absolute positioning */}
-                        <div className="absolute w-[335px] h-[335px] bg-gradient-to-tr from-primary-green to-[#226e46]
-                         bg-opacity-10 blur-[205px] rounded-full -z-0 flex justify-center items-center top-24 left-20"></div>
+                        <div className="absolute w-[250px] h-[250px] md:w-[335px] md:h-[335px] bg-gradient-to-tr from-primary-green to-[#226e46]
+                         bg-opacity-10 blur-[205px] rounded-full -z-0 flex justify-center items-center top-24 md:left-20"></div>
                     </div>
                 </div>
         </div>

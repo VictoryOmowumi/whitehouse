@@ -52,7 +52,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav className="flex justify-between items-center py-4 px-12 bg-white fixed w-full z-50">
+    <nav className="flex justify-between items-center py-4 px-4 md:px-12 bg-white md:fixed w-full z-50">
       <div className="flex items-center md:ml-12">
         <Image src={logo} alt="logo" width={70} height={40} />
       </div>
@@ -113,8 +113,8 @@ const Nav = () => {
           )}
         </button>
       </div>
-      <div className={isOpen ? 'md:hidden flex flex-col gap-4 bg-white absolute top-0 right-0 h-screen w-3/4 transition duration-700 ease-in-out' : 'hidden'}>
-        <button onClick={() => setIsOpen(!isOpen)} className="outline-none p-4 bg-green-300 rounded-full ml-auto mt-4 mr-4 text-white">
+      <div className={isOpen ? 'md:hidden flex flex-col gap-4 bg-white absolute top-0 right-0 h-screen w-3/4 transition duration-700 ease-in-out z-50' : 'hidden'}>
+        <button onClick={() => setIsOpen(!isOpen)} className="outline-none p-4 bg-primary-green rounded-full ml-auto mt-4 mr-4 text-white">
           {isOpen ? (
             <AiOutlineMenuUnfold className="w-6 h-6" />
           ) : (
@@ -125,7 +125,7 @@ const Nav = () => {
           href="#home"
           onClick={() => scrollToSection('home')}
           className={`${
-            activeSection === 'home' ? 'text-primary-green' : 'text-black hover:text-primary-green px-4'
+            activeSection === 'home' ? 'text-primary-green px-4 ' : 'text-black hover:text-primary-green px-4'
           }`}
         >
           Home
@@ -134,7 +134,7 @@ const Nav = () => {
           href="#about"
           onClick={() => scrollToSection('about')}
           className={`${
-            activeSection === 'about' ? 'text-primary-green' : 'text-black hover:text-primary-green px-4'
+            activeSection === 'about' ? 'text-primary-green px-4 ' : 'text-black hover:text-primary-green px-4'
           }`}
         >
           About Us
@@ -143,7 +143,7 @@ const Nav = () => {
           href="#explore"
           onClick={() => scrollToSection('explore')}
           className={`${
-            activeSection === 'explore' ? 'text-primary-green' : 'text-black hover:text-primary-green px-4'
+            activeSection === 'explore' ? 'text-primary-green px-4 ' : 'text-black hover:text-primary-green px-4'
           }`}
         >
           Explore Property
@@ -152,7 +152,7 @@ const Nav = () => {
           href="#how-it-works"
           onClick={() => scrollToSection('how-it-works')}
           className={`${
-            activeSection === 'how-it-works' ? 'text-primary-green' : 'text-black hover:text-primary-green px-4'
+            activeSection === 'how-it-works' ? 'text-primary-green px-4 ' : 'text-black hover:text-primary-green px-4'
           }`}
         >
           How It Works
@@ -161,7 +161,7 @@ const Nav = () => {
           href="#contact"
           onClick={() => scrollToSection('contact')}
           className={`${
-            activeSection === 'contact' ? 'text-primary-green' : 'text-white bg-primary-green px-4 py-2 rounded-md hover:bg-transparent hover:text-primary-green hover:border hover:border-primary-green hover:transition duration-300 ease-in-out'
+            activeSection === 'contact' ? 'text-primary-green' : 'text-white bg-primary-green px-4 py-2 w-1/2 ml-4 rounded-md hover:bg-transparent hover:text-primary-green hover:border hover:border-primary-green hover:transition duration-300 ease-in-out'
           }`}
         >
           Contact Us

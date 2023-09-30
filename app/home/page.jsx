@@ -4,7 +4,7 @@ import {IoLogoInstagram} from "react-icons/io"
 import {BiLogoLinkedin} from "react-icons/bi"
 const Home = () => {
   return (
-    <div className='home-bg flex flex-col md:flex-row gap-6 h-auto md:h-screen justify-center md:mt-20 mt-20'>
+    <div className='home-bg flex flex-col md:flex-row gap-6 h-auto md:h-screen justify-center md:mt-20'>
         <div className='flex flex-1 md:w-1/2 px-4 md:px-20 flex-col gap-6 items-start justify-center h-full text-black mt-20 md:mt-0'>
             <h1 className='text-[4rem] md:text-[5rem] font-semibold leading-none text-black'>
                 Your <span className='text-primary-green'>Home</span> Away from <span className='text-primary-green'>Home.</span>

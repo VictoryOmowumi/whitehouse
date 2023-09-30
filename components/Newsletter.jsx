@@ -10,8 +10,8 @@ const Newsletter = () => {
                 <h1 className="text-white text-3xl md:text-[2.5rem] font-semibold">Subscribe to our monthly newsletter</h1>
                 <p className="text-[#F7F7F7] text-[1.125rem] mt-4">Get updates on our latest listings</p>
                 <div className="flex mt-4 bg-white rounded-md p-4">
-                    <input type="text" className="w-full h-10 bg-white rounded-l-md px-4 placeholder:text-gray-400 placeholder:text-xs outline-none" placeholder='Enter your email address' />
-                    <button className="w-[200px] h-12 rounded-md bg-primary-green rounded-r-md text-white">Subscribe</button>
+                    <input type="text" className="w-full h-5 md:h-10 bg-white rounded-l-md px-4 placeholder:text-gray-400 placeholder:text-xs outline-none" placeholder='Enter your email address' />
+                    <button className="w-[200px] h-10 md:h-12 rounded-md bg-primary-green rounded-r-md text-white">Subscribe</button>
                 </div>
             </div>
             <div className="flex-1">

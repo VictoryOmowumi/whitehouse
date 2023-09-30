@@ -72,7 +72,7 @@ const Footer = () => {
      </div>
      <div className="flex flex-col md:w-4/5 mx-auto w-full">
         <div className="  h-[1px] bg-[#bababa] mt-8"></div>
-        <div className="flex justify-between items-center ">
+        <div className="flex md:flex-row flex-col justify-between items-center ">
             <p className="text-[#484848] text-[14px]">© {year} White House Villa. All rights reserved</p>
            <div className="flex items-center  gap-6">
             <Link href='/terms' className="text-[#484848] text-[14px] mt-2"> Terms of Service</Link>
